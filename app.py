@@ -1,5 +1,4 @@
 # app.py
-import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -8,20 +7,23 @@ import json
 from datetime import datetime
 from openai import OpenAI
 import textwrap
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # ---------- CONFIG ----------
-OPENAI_KEY = os.getenv("OPENAI_API_KEY")
 MODEL_NAME = "gpt-4o"   # replace with your model identifier if different
 
-# Initialize OpenAI client
-if OPENAI_KEY is None:
-    st.warning("Set OPENAI_API_KEY environment variable before running. App will still run but LLM insights will be disabled.")
-    client = None
-else:
-    client = OpenAI(api_key=OPENAI_KEY)
+# Initialize session state for API key
+if 'openai_api_key' not in st.session_state:
+    st.session_state.openai_api_key = ""
+
+def get_openai_client():
+    """Get OpenAI client if API key is set"""
+    if st.session_state.openai_api_key:
+        try:
+            return OpenAI(api_key=st.session_state.openai_api_key)
+        except Exception as e:
+            st.error(f"Error initializing OpenAI client: {str(e)}")
+            return None
+    return None
 
 # ---------- HELPERS ----------
 def load_file(uploaded_file):
@@ -127,6 +129,7 @@ def create_visualization_prompt(question, df_sample, col_types):
 
 def call_llm_for_visualization(prompt, model=MODEL_NAME, max_tokens=500):
     """Call LLM to get visualization configuration"""
+    client = get_openai_client()
     if client is None:
         return None
     try:
@@ -362,8 +365,9 @@ def create_insight_prompt(question, df_result, config):
 
 def call_llm_for_insights(prompt, model=MODEL_NAME, max_tokens=500):
     """Call LLM to generate insights"""
+    client = get_openai_client()
     if client is None:
-        return "LLM disabled. Set OPENAI_API_KEY to enable insights."
+        return "LLM disabled. Please enter your OpenAI API key in the sidebar to enable insights."
     try:
         resp = client.chat.completions.create(
             model=model,
@@ -385,6 +389,23 @@ st.title("Converse with your data")
 st.markdown("Upload CSV or Excel, ask a question, and get a table, chart and insights powered by an LLM.")
 
 with st.sidebar:
+    st.header("OpenAI API Configuration")
+    api_key_input = st.text_input(
+        "OpenAI API Key",
+        value=st.session_state.openai_api_key,
+        type="password",
+        help="Enter your OpenAI API key to enable LLM-powered insights and visualization selection.",
+        placeholder="sk-..."
+    )
+    if api_key_input != st.session_state.openai_api_key:
+        st.session_state.openai_api_key = api_key_input
+    
+    if st.session_state.openai_api_key:
+        st.success("✓ API key set")
+    else:
+        st.warning("⚠ API key required for LLM features")
+    
+    st.markdown("---")
     st.header("Upload & Settings")
     uploaded = st.file_uploader("Upload CSV / Excel", type=["csv","xls","xlsx"])
     sample_mode = st.checkbox("Use internal sample (if no file)", value=False)
@@ -421,8 +442,9 @@ if df is not None:
     question = st.text_input("e.g. 'Show monthly sales for 2024' or 'Which category has highest average sales?'")
     
     if st.button("Run query") and question.strip():
+        client = get_openai_client()
         if client is None:
-            st.error("OpenAI API key not set. Please set OPENAI_API_KEY environment variable.")
+            st.error("OpenAI API key not set. Please enter your API key in the sidebar to enable LLM features.")
         else:
             with st.spinner("Analyzing question and preparing visualization..."):
                 # Step 1: LLM determines visualization and data processing
