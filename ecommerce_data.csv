@@ -1,0 +1,201 @@
+Order_ID,Order_Date,Customer_Age,Category,Amount,Payment_Type,Rating
+111,2025-07-19,39,Books,1677,Debit Card,5
+112,2025-11-20,33,Sports,7875,Credit Card,1
+113,2024-05-04,43,Home Decor,2024,UPI,4
+114,2025-06-17,36,Fashion,8000,Debit Card,4
+115,2025-06-04,22,Electronics,26171,NetBanking,4
+116,2024-12-22,30,Electronics,32375,Credit Card,5
+117,2025-09-24,27,Home Decor,1394,UPI,3
+118,2024-12-22,25,Home Decor,4193,UPI,4
+119,2025-09-09,25,Books,620,Debit Card,5
+120,2024-01-30,32,Electronics,60000,Credit Card,4
+121,2025-02-06,29,Books,3000,UPI,5
+122,2024-08-28,40,Fashion,1100,Debit Card,5
+123,2024-04-09,37,Sports,3536,UPI,4
+124,2025-07-06,30,Groceries,2755,NetBanking,5
+125,2025-08-24,27,Groceries,5000,UPI,4
+126,2025-10-29,27,Home Decor,15000,Credit Card,4
+127,2024-10-29,30,Toys,4793,Credit Card,5
+128,2024-09-04,29,Electronics,30201,Debit Card,4
+129,2024-07-25,36,Sports,20000,Credit Card,4
+130,2025-02-06,33,Home Decor,6736,Wallet,4
+131,2024-06-12,28,Books,2495,Credit Card,4
+132,2024-05-03,41,Beauty,5000,Debit Card,4
+133,2025-10-09,26,Fashion,6439,Credit Card,5
+134,2024-02-04,39,Electronics,13442,Debit Card,4
+135,2025-05-15,23,Electronics,46042,UPI,5
+136,2024-10-30,33,Home Decor,2577,UPI,5
+137,2024-10-24,24,Home Decor,15000,UPI,5
+138,2024-12-07,44,Groceries,3062,UPI,4
+139,2025-05-06,38,Books,3000,Credit Card,4
+140,2025-03-12,44,Fashion,5254,Credit Card,5
+141,2024-01-10,42,Home Decor,15000,Wallet,4
+142,2024-06-10,47,Books,1891,Credit Card,5
+143,2025-11-16,40,Beauty,1472,UPI,4
+144,2024-06-13,45,Electronics,29522,UPI,5
+145,2024-06-03,24,Home Decor,4191,NetBanking,5
+146,2025-08-15,18,Books,1229,UPI,5
+147,2024-09-09,42,Electronics,54618,Wallet,4
+148,2025-03-29,35,Sports,12679,Wallet,5
+149,2024-08-11,48,Toys,1439,Debit Card,4
+150,2025-07-24,35,Home Decor,15000,Credit Card,4
+151,2024-08-03,31,Electronics,60000,Debit Card,5
+152,2025-05-31,30,Fashion,8000,NetBanking,5
+153,2024-06-12,35,Fashion,8000,UPI,3
+154,2024-11-18,31,Home Decor,3112,Debit Card,4
+155,2025-03-19,18,Electronics,27915,Wallet,4
+156,2024-03-10,33,Toys,2907,Credit Card,5
+157,2024-05-16,22,Beauty,2307,Debit Card,5
+158,2024-12-31,27,Books,1619,NetBanking,5
+159,2025-01-10,39,Sports,16715,Credit Card,4
+160,2024-10-11,46,Electronics,42362,UPI,5
+161,2024-06-01,46,Sports,11856,Debit Card,1
+162,2025-04-10,37,Home Decor,15000,Debit Card,4
+163,2024-11-27,26,Books,1547,Debit Card,5
+164,2024-06-25,34,Beauty,2277,Debit Card,3
+165,2024-08-02,28,Electronics,60000,Credit Card,5
+166,2024-09-11,38,Electronics,18008,Debit Card,4
+167,2024-08-05,46,Home Decor,1323,UPI,4
+168,2024-02-18,47,Electronics,19885,UPI,4
+169,2024-08-18,25,Sports,10243,UPI,5
+170,2024-06-21,18,Fashion,3029,Credit Card,5
+171,2024-12-19,35,Fashion,3327,Credit Card,5
+172,2024-07-01,48,Books,852,Debit Card,3
+173,2025-02-21,19,Toys,7000,UPI,5
+174,2025-05-02,34,Fashion,8000,UPI,4
+175,2025-11-08,29,Home Decor,9016,Debit Card,3
+176,2025-05-24,32,Fashion,8000,UPI,5
+177,2025-10-08,27,Electronics,43216,Debit Card,4
+178,2025-08-05,44,Beauty,3120,Debit Card,4
+179,2025-09-15,39,Sports,10805,Debit Card,5
+180,2025-02-12,30,Home Decor,15000,Debit Card,5
+181,2024-10-14,36,Books,1889,Debit Card,2
+182,2025-05-26,36,Groceries,5000,Debit Card,5
+183,2025-05-23,25,Home Decor,4155,UPI,4
+184,2024-06-15,36,Toys,7000,UPI,1
+185,2024-12-01,29,Electronics,56859,UPI,4
+186,2025-07-16,23,Fashion,1959,Credit Card,5
+187,2024-02-10,33,Groceries,1118,Wallet,4
+188,2025-07-18,42,Books,3000,Credit Card,4
+189,2025-08-23,27,Fashion,1173,Debit Card,4
+190,2024-05-18,40,Groceries,5000,Credit Card,5
+191,2024-04-25,31,Home Decor,15000,Credit Card,4
+192,2024-11-15,36,Toys,7000,Debit Card,5
+193,2024-03-23,29,Home Decor,7461,Debit Card,5
+194,2024-04-15,25,Groceries,2195,Debit Card,5
+195,2024-12-28,46,Electronics,60000,Credit Card,5
+196,2025-11-03,31,Home Decor,6927,UPI,5
+197,2024-06-29,36,Books,1132,Wallet,5
+198,2025-01-04,41,Books,3000,Debit Card,5
+199,2024-05-21,31,Electronics,16913,UPI,3
+200,2024-01-26,34,Electronics,12050,Wallet,5
+201,2025-07-26,34,Electronics,11149,Debit Card,5
+202,2024-08-11,30,Beauty,5000,Credit Card,5
+203,2025-10-20,44,Fashion,2579,Credit Card,1
+204,2025-09-05,50,Electronics,60000,Wallet,4
+205,2024-10-02,55,Electronics,60000,UPI,4
+206,2024-09-19,41,Electronics,23868,UPI,4
+207,2024-10-27,21,Electronics,60000,Debit Card,5
+208,2025-10-13,35,Toys,1658,Debit Card,4
+209,2025-08-27,28,Fashion,3259,Credit Card,1
+210,2024-12-10,41,Fashion,1465,Debit Card,5
+211,2025-08-03,25,Home Decor,4118,Credit Card,3
+212,2025-06-02,40,Electronics,12372,Credit Card,5
+213,2025-10-30,35,Home Decor,2463,UPI,5
+214,2025-09-30,50,Home Decor,15000,UPI,4
+215,2025-07-12,41,Home Decor,1557,UPI,5
+216,2025-05-07,27,Electronics,60000,Debit Card,5
+217,2025-10-21,37,Electronics,60000,Debit Card,5
+218,2025-04-30,24,Sports,8089,Debit Card,4
+219,2025-04-06,38,Sports,7055,Debit Card,4
+220,2025-07-27,36,Sports,5584,UPI,5
+221,2025-05-10,38,Home Decor,4799,Debit Card,4
+222,2024-01-30,42,Books,282,NetBanking,3
+223,2024-07-11,18,Home Decor,10316,Debit Card,3
+224,2024-03-17,43,Electronics,60000,Debit Card,5
+225,2024-09-17,30,Sports,12246,UPI,5
+226,2025-01-29,28,Books,3000,UPI,3
+227,2024-07-27,18,Home Decor,4306,UPI,5
+228,2025-02-18,22,Fashion,7534,Debit Card,5
+229,2025-09-03,38,Fashion,1245,Debit Card,5
+230,2024-02-10,30,Sports,1544,UPI,4
+231,2024-07-07,29,Groceries,5000,UPI,4
+232,2024-07-23,24,Beauty,1580,Debit Card,5
+233,2025-11-01,24,Beauty,5000,Debit Card,1
+234,2024-04-21,41,Fashion,8000,Credit Card,5
+235,2025-01-22,28,Groceries,780,Debit Card,4
+236,2025-03-07,35,Fashion,2910,UPI,4
+237,2025-01-27,33,Toys,4207,Credit Card,3
+238,2024-10-10,35,Toys,7000,UPI,1
+239,2024-02-11,48,Sports,9520,Debit Card,4
+240,2024-04-28,40,Sports,10178,Debit Card,4
+241,2024-04-27,33,Books,1906,NetBanking,5
+242,2025-07-07,39,Beauty,5000,Credit Card,4
+243,2025-06-10,18,Electronics,60000,Credit Card,4
+244,2024-03-21,35,Toys,3109,Debit Card,4
+245,2025-03-24,35,Electronics,16877,Wallet,5
+246,2024-01-08,30,Electronics,60000,UPI,4
+247,2024-12-05,35,Fashion,8000,Credit Card,5
+248,2024-12-23,40,Books,335,NetBanking,5
+249,2024-05-02,35,Groceries,1995,Credit Card,3
+250,2025-06-20,19,Beauty,1007,UPI,3
+251,2024-05-30,27,Fashion,8000,Credit Card,5
+252,2024-06-16,35,Home Decor,15000,UPI,5
+253,2025-08-04,38,Home Decor,4183,Credit Card,3
+254,2024-06-10,43,Home Decor,6785,NetBanking,3
+255,2025-07-28,41,Electronics,14612,Credit Card,5
+256,2025-03-04,27,Groceries,2805,Credit Card,3
+257,2025-07-18,27,Sports,20000,UPI,5
+258,2024-03-01,38,Sports,20000,Credit Card,5
+259,2024-12-11,32,Electronics,21639,UPI,5
+260,2025-10-06,45,Fashion,4831,Credit Card,5
+261,2024-10-17,41,Electronics,39055,Wallet,4
+262,2024-07-16,30,Fashion,3221,Wallet,4
+263,2024-01-07,23,Groceries,2447,Debit Card,3
+264,2024-05-25,43,Home Decor,5678,Debit Card,2
+265,2025-03-28,42,Home Decor,15000,Credit Card,1
+266,2025-07-19,44,Electronics,3000,Credit Card,4
+267,2025-11-17,33,Beauty,4976,UPI,5
+268,2025-09-20,28,Beauty,2445,Credit Card,4
+269,2024-10-13,38,Fashion,4682,UPI,5
+270,2025-07-21,18,Home Decor,11525,UPI,5
+271,2024-07-27,29,Electronics,18868,Debit Card,5
+272,2024-05-10,34,Toys,3307,Credit Card,5
+273,2024-02-28,36,Electronics,60000,Credit Card,5
+274,2024-08-15,38,Beauty,911,Credit Card,4
+275,2024-12-11,29,Sports,5692,UPI,2
+276,2025-11-01,32,Toys,7000,Debit Card,4
+277,2025-11-08,54,Groceries,5000,Debit Card,5
+278,2024-08-10,26,Groceries,2521,Credit Card,4
+279,2024-11-23,30,Groceries,1136,Wallet,5
+280,2024-11-18,30,Electronics,33974,Debit Card,5
+281,2024-05-11,39,Home Decor,2170,UPI,5
+282,2025-04-16,33,Sports,6168,Debit Card,3
+283,2025-10-22,36,Electronics,60000,Wallet,5
+284,2024-06-21,34,Home Decor,2493,UPI,5
+285,2025-09-04,24,Fashion,2443,Debit Card,5
+286,2024-02-09,29,Home Decor,415,UPI,5
+287,2025-04-01,31,Beauty,5000,Credit Card,5
+288,2024-12-13,25,Home Decor,3964,UPI,5
+289,2024-06-30,49,Electronics,33878,Debit Card,4
+290,2025-06-21,52,Toys,3752,UPI,4
+291,2024-01-17,42,Electronics,6850,Credit Card,5
+292,2024-05-12,22,Electronics,60000,UPI,5
+293,2024-11-22,27,Electronics,28167,UPI,5
+294,2024-12-05,39,Electronics,34944,Debit Card,5
+295,2024-05-27,35,Fashion,5379,Credit Card,4
+296,2024-04-22,25,Books,484,UPI,5
+297,2025-03-29,40,Home Decor,1888,UPI,5
+298,2024-11-21,38,Toys,7000,UPI,5
+299,2025-02-06,40,Fashion,2118,UPI,4
+300,2025-11-04,41,Electronics,34983,Debit Card,2
+301,2024-09-16,41,Electronics,60000,UPI,4
+302,2025-03-22,26,Electronics,8981,Debit Card,4
+303,2024-07-14,24,Groceries,5000,Credit Card,4
+304,2024-02-28,51,Fashion,3930,Debit Card,5
+305,2025-07-18,46,Fashion,3563,Wallet,5
+306,2025-05-21,37,Beauty,546,Credit Card,4
+307,2025-09-28,38,Fashion,1817,UPI,4
+308,2025-09-10,32,Electronics,22691,Debit Card,3
+309,2025-03-16,39,Books,175,Credit Card,5
+310,2024-10-05,30,Electronics,12543,UPI,5
